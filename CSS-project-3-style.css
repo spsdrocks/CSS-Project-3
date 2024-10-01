@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+h1 {
+	display: block;
+	font-size: 2em;
+	margin-top: 0.67em;
+	margin-bottom: 0.67em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+}
+
+h2 {
+	display: block;
+	font-size: 1.5em;
+	margin-top: 0.83em;
+	margin-bottom: 0.83em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+}
+
+h3 {
+	display: block;
+	font-size: 1.17em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+}
+
+h4 {
+	display: block;
+	font-size: 1em;
+	margin-top: 1.33em;
+	margin-bottom: 1.33em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+}
+
+h5 {
+	display: block;
+	font-size: .83em;
+	margin-top: 1.67em;
+	margin-bottom: 1.67em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+}
+
+h6 {
+	display: block;
+	font-size: .67em;
+	margin-bottom: 2.33em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+}
+
+html::-webkit-scrollbar {
+    width: 10px;
+}
+html::-webkit-scrollbar-thumb {
+	background: rgba(255, 255, 255, 0.2);
+}
+html::-webkit-scrollbar-thumb:hover {
+	background: rgba(255, 255, 255, 0.3);
+}
+html::-webkit-scrollbar-track {
+	background: rgba(0, 0, 0, 0.9);
+}
+
+body {
+	overflow-x: hidden;
+	background-image: url(https://i.imgur.com/iZag9eL.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+header {
+	background-color: #000000;
+	color: #a5a7a6;
+	font-family: 'Oxygen', Arial, sans-serif;
+}
+
+li ul {
+	list-style-type: disc;
+}
+
+#hide {
+	overflow: hidden;
+}
+
+.flexbox {
+	display: flex !important;
+}
+
+.relative {
+	position: relative !important;
+}
+
+.absolute {
+	position: absolute !important;
+}
+
+.quarter-dent {
+	margin-left: 25% !important;
+}
+
+.center {
+	text-align: center !important;
+}
+
+.header-logo-name {
+	margin-right: 62%;
+}
+
+.logo-name {
+	margin: 7%;
+}
+
+.header-link {
+	text-decoration: none;
+	color: #a5a7a6;
+	font-size: 200%;
+	transition: background-color 0.5s;
+	padding: 1% 2% 1% 2%;
+}
+
+.header-link:hover {
+	background-color: #cc4228;
+}
+
+.top-img {
+	width: 100%;
+	height: 100%;
+}
+
+.header-bar {
+	width: 100%;
+	z-index: 1;
+}
+
+.black-trans {
+	background-image: linear-gradient(black, rgba(0, 0, 0, 0));
+	height: 100px;
+}
+
+.intro-article {
+	background-color: rgba(0, 0, 0, 0.8);
+	color: #a5a7a6;
+	margin: 5% 15% 5% 15%;
+	font-family: 'Oxygen', Arial, sans-serif;
+	line-height: 230%;
+	padding: 1%;
+}
+
+.intro-article h1, .weapons-article h1, .weapons-div-1 h2, .weapons-div-2 h2, .ammo-article h1, .ammo-div-1 h1, .ammo-div-1 h2 {
+	color: #cc4228;
+	font-family: 'Oxygen', Arial, sans-serif;
+}
+
+.intro-div-1 {
+	margin: 2.5%;
+}
+
+.section-list {
+	margin-left: 5%;
+}
+
+.section-list li {
+	list-style-type: circle;
+}
+
+.section-list-weapons li {
+	list-style-type: square;
+	margin-left: 5%;
+}
+
+.weapons-article {
+	background-color: rgba(0, 0, 0, 0.8);
+	color: #a5a7a6;
+	margin: 5% 8% 5% 8%;
+	font-family: 'Oxygen', Arial, sans-serif;
+	line-height: 230%;
+	padding: 1%;
+}
+
+.grid-military {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	grid-column-gap: 0.7%;
+	grid-row-gap: 0.7%; 
+	line-height: 150%;
+}
+
+.military-div-1 [class="flexbox"], .handmade-div-1 [class="flexbox"], .rifle-div-1 [class="flexbox"] {
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.grid-handmade {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	grid-column-gap: 0.7%;
+	grid-row-gap: 0.7%; 
+}
+
+.ammo-article {
+	background-color: rgba(0, 0, 0, 0.8);
+	color: #a5a7a6;
+	margin: 5% 1% 5% 1%;
+	font-family: 'Oxygen', Arial, sans-serif;
+	line-height: 230%;
+	padding: 1%;
+}
+
+.grid-rifle {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-column-gap: 0.7%;
+	grid-row-gap: 0.7%;
+}
